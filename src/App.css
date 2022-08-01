@@ -1,0 +1,46 @@
+*{
+  box-sizing: border-box;
+} 
+
+body {
+  margin-left:200px ;
+  padding:100px;
+  background-color: grey;
+}
+main{
+background-color: floralwhite;
+height:400px;
+max-width:700px;
+padding:40px;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+align-items: center;
+border-radius:0.5rem;
+
+}
+.die-container{
+display:grid;
+grid-template: auto auto / repeat(5, 1fr);
+gap:40px;
+background-color: brown;
+padding: 20px;
+border-radius: 10px;
+}
+
+.die-face{
+display: flex;
+justify-content:center;
+align-items:center;
+border-radius: 10px;
+height:30px;
+width:30px;
+background-color: floralwhite;
+font-size:1.5em;
+}
+button{
+font-size:2.5em;
+border-radius:10px;
+color:orange;
+background-color: floralwhite;
+}
